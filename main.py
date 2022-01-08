@@ -151,5 +151,4 @@ while running:
             if result == "pn2":
                   running = False
                   break
-print(turtle.screensize())
 turtle.mainloop()
