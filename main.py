@@ -1,7 +1,7 @@
 import turtle
 import random
 
-print("Hello to the turtle Race Progeam!")
+print("Hello to the turtle Race Program!")
 
 print("Do you want to modify the Appearence? or Direclty play the game?")
 choice_1 = str(input("Enter M to modify, and D to directlty play: "))
@@ -50,8 +50,8 @@ if choice_1 == "M":
             p1.shape("turtle")
 
       elif choice_shape_p1 == "snake":
-            turtle.register_shape('snake_1.gif')
-            p1.shape('snake_1.gif')
+            turtle.register_shape('snake.gif')
+            p1.shape('snake.gif')
       else: 
             p1.shape(choice_shape_p1)
 
@@ -60,8 +60,8 @@ if choice_1 == "M":
       if choice_color_p2 == "":
             p2.shape("turtle")
       elif choice_shape_p1 == "snake":
-            turtle.register_shape('snake_1.gif')
-            p2.shape('snake_1.gif')
+            turtle.register_shape('snake.gif')
+            p2.shape('snake.gif')
       else:
             p2.shape(choice_shape_p2)
 
